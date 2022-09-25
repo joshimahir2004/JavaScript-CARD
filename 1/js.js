@@ -37,5 +37,25 @@ function count() {
   let input = document.getElementById('Input').value;
   let lbl = document.getElementById('lbl');
   lbl.innerText =  input;
-  // alert(lbl.innerText);
+}
+
+function footer() {
+
+  let footer =  document.getElementById("footer_id");
+  if(footer.style.marginTop= "100rem"){
+    footer.style.marginTop= "0rem";
+  }
+  else{
+    footer.style.marginTop= "100rem";
+  }
+}
+
+function closeme(){
+  let footer =  document.getElementById("footer_id");
+  if(footer.style.marginTop= "0"){
+    footer.style.marginTop= "100rem";
+  }
+  else{
+    footer.style.marginTop= "0";
+  }
 }
